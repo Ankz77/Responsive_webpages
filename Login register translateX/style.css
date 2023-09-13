@@ -1,3 +1,4 @@
+/*Overall CSS for the file*/
 *{
     margin: 0;
     padding: 0;
@@ -27,12 +28,14 @@ header{
     z-index: 99;
 }
 
+/* Logo CSS */
 .logo{
     font-size: 2em;
     color: white;
     user-select: none;
 }
 
+/* navigation bar CSS for each addreess tag a*/
 .navigation a{
     position: relative;
     font-size: 1.1em;
@@ -61,6 +64,7 @@ header{
     transform-origin: left;
 }
 
+/* Login button popup*/
 .navigation .btnLogin-popup {
     width: 130px;
     height: 50px;
@@ -76,6 +80,7 @@ header{
     transition: .5s;
 }
 
+/* Login button popup when hovering mouse over button*/
 .navigation .btnLogin-popup:hover {
     background: #fff;
     color: #162938;
